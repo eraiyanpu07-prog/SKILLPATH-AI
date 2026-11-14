@@ -1,0 +1,2387 @@
+{
+  "career_roles": [
+    {
+      "id": "career-fsd",
+      "createdAt": "2026-11-14T05:13:27.032Z",
+      "updatedAt": "2026-11-14T05:13:27.032Z",
+      "slug": "full-stack-developer",
+      "title": "Full Stack Developer",
+      "category": "Software Engineering",
+      "description": "Builds modern client-facing web applications and resilient backend server architectures, connecting responsive user interfaces to databases and cloud APIs.",
+      "salaryRange": "$85,000 - $145,000",
+      "demandLevel": "Very High",
+      "growthRate": "+22% (Next 5 Years)",
+      "readinessBenchmark": 80,
+      "requiredSkills": [
+        {
+          "name": "HTML & CSS",
+          "minProficiency": "Intermediate",
+          "weight": 10,
+          "isCore": true,
+          "category": "Frontend"
+        },
+        {
+          "name": "JavaScript",
+          "minProficiency": "Advanced",
+          "weight": 20,
+          "isCore": true,
+          "category": "Frontend"
+        },
+        {
+          "name": "React.js",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "Frontend"
+        },
+        {
+          "name": "Node.js",
+          "minProficiency": "Intermediate",
+          "weight": 15,
+          "isCore": true,
+          "category": "Backend"
+        },
+        {
+          "name": "Express.js",
+          "minProficiency": "Intermediate",
+          "weight": 12,
+          "isCore": true,
+          "category": "Backend"
+        },
+        {
+          "name": "REST APIs",
+          "minProficiency": "Intermediate",
+          "weight": 10,
+          "isCore": true,
+          "category": "Backend"
+        },
+        {
+          "name": "Database Integration",
+          "minProficiency": "Intermediate",
+          "weight": 15,
+          "isCore": true,
+          "category": "Database"
+        },
+        {
+          "name": "Git & GitHub",
+          "minProficiency": "Intermediate",
+          "weight": 10,
+          "isCore": false,
+          "category": "DevOps"
+        }
+      ],
+      "milestones": [
+        "Master modern semantic HTML5 and responsive Flexbox/Grid CSS",
+        "Gain fluency in JavaScript ES6+, async/await, and DOM manipulation",
+        "Build component-based interfaces with React hooks and state management",
+        "Develop scalable REST APIs using Node.js and Express",
+        "Design database schemas and integrate SQL/NoSQL with server APIs",
+        "Deploy full-stack applications with CI/CD and secure authentication"
+      ]
+    },
+    {
+      "id": "career-ai-eng",
+      "createdAt": "2026-11-14T05:13:27.034Z",
+      "updatedAt": "2026-11-14T05:13:27.034Z",
+      "slug": "ai-engineer",
+      "title": "AI Engineer",
+      "category": "Artificial Intelligence",
+      "description": "Engineers generative AI models, agentic workflows, LLM pipelines, and vector databases into production-grade scalable software systems.",
+      "salaryRange": "$110,000 - $185,000",
+      "demandLevel": "Extremely High",
+      "growthRate": "+38% (Next 5 Years)",
+      "readinessBenchmark": 85,
+      "requiredSkills": [
+        {
+          "name": "Python",
+          "minProficiency": "Advanced",
+          "weight": 20,
+          "isCore": true,
+          "category": "Core"
+        },
+        {
+          "name": "Machine Learning",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "AI/ML"
+        },
+        {
+          "name": "Deep Learning & PyTorch",
+          "minProficiency": "Intermediate",
+          "weight": 16,
+          "isCore": true,
+          "category": "AI/ML"
+        },
+        {
+          "name": "Large Language Models (LLMs)",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "AI/ML"
+        },
+        {
+          "name": "Prompt Engineering & RAG",
+          "minProficiency": "Intermediate",
+          "weight": 14,
+          "isCore": true,
+          "category": "AI/ML"
+        },
+        {
+          "name": "FastAPI / Backend APIs",
+          "minProficiency": "Intermediate",
+          "weight": 14,
+          "isCore": true,
+          "category": "Backend"
+        }
+      ],
+      "milestones": [
+        "Advanced Python data structures, algorithms and async programming",
+        "Supervised and unsupervised ML models with Scikit-Learn",
+        "Neural networks, embeddings and fine-tuning with PyTorch",
+        "Building Retrieval-Augmented Generation (RAG) pipelines with Vector DBs",
+        "Agentic orchestration (LangChain, AutoGen, Multi-agent workflows)"
+      ]
+    },
+    {
+      "id": "career-data-sci",
+      "createdAt": "2026-11-14T05:13:27.035Z",
+      "updatedAt": "2026-11-14T05:13:27.035Z",
+      "slug": "data-scientist",
+      "title": "Data Scientist",
+      "category": "Data Science & Analytics",
+      "description": "Transforms unstructured datasets into actionable predictive insights, statistical experiments, and automated forecasting algorithms.",
+      "salaryRange": "$95,000 - $160,000",
+      "demandLevel": "High",
+      "growthRate": "+28% (Next 5 Years)",
+      "readinessBenchmark": 80,
+      "requiredSkills": [
+        {
+          "name": "Python",
+          "minProficiency": "Advanced",
+          "weight": 22,
+          "isCore": true,
+          "category": "Core"
+        },
+        {
+          "name": "SQL",
+          "minProficiency": "Advanced",
+          "weight": 20,
+          "isCore": true,
+          "category": "Database"
+        },
+        {
+          "name": "Statistics & Probability",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "Theory"
+        },
+        {
+          "name": "Pandas & NumPy",
+          "minProficiency": "Advanced",
+          "weight": 15,
+          "isCore": true,
+          "category": "Data"
+        },
+        {
+          "name": "Data Visualization (Seaborn/Plotly)",
+          "minProficiency": "Intermediate",
+          "weight": 12,
+          "isCore": false,
+          "category": "Data"
+        },
+        {
+          "name": "Scikit-Learn & Predictive Modeling",
+          "minProficiency": "Intermediate",
+          "weight": 13,
+          "isCore": true,
+          "category": "AI/ML"
+        }
+      ],
+      "milestones": [
+        "Master advanced relational database queries, window functions, and indexing",
+        "Exploratory Data Analysis and data munging with Pandas",
+        "Hypothesis testing, A/B testing and inferential statistics",
+        "Feature engineering and classification/regression pipelines",
+        "Executive dashboard communication and model deployment"
+      ]
+    },
+    {
+      "id": "career-cyber-sec",
+      "createdAt": "2026-11-14T05:13:27.038Z",
+      "updatedAt": "2026-11-14T05:13:27.038Z",
+      "slug": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "category": "Information Security",
+      "description": "Protects enterprise systems, audits network vulnerabilities, monitors security incident events, and enforces zero-trust compliance standards.",
+      "salaryRange": "$80,000 - $140,000",
+      "demandLevel": "Very High",
+      "growthRate": "+32% (Next 5 Years)",
+      "readinessBenchmark": 80,
+      "requiredSkills": [
+        {
+          "name": "Computer Networking (TCP/IP)",
+          "minProficiency": "Advanced",
+          "weight": 20,
+          "isCore": true,
+          "category": "Networking"
+        },
+        {
+          "name": "Linux Administration",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "Systems"
+        },
+        {
+          "name": "Security Architecture & OWASP",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "Security"
+        },
+        {
+          "name": "Vulnerability Assessment",
+          "minProficiency": "Intermediate",
+          "weight": 16,
+          "isCore": true,
+          "category": "Security"
+        },
+        {
+          "name": "Incident Response & SIEM",
+          "minProficiency": "Intermediate",
+          "weight": 14,
+          "isCore": true,
+          "category": "Security"
+        },
+        {
+          "name": "Cryptography Basics",
+          "minProficiency": "Beginner",
+          "weight": 14,
+          "isCore": false,
+          "category": "Security"
+        }
+      ],
+      "milestones": [
+        "Network packet analysis with Wireshark and firewall configurations",
+        "Linux command line, permission models, and process hardening",
+        "Web application vulnerabilities: XSS, SQLi, CSRF and secure coding",
+        "Log monitoring, anomaly detection and threat hunting with SIEM tools",
+        "Security certification readiness (CompTIA Security+, CEH)"
+      ]
+    },
+    {
+      "id": "career-cloud-eng",
+      "createdAt": "2026-11-14T05:13:27.039Z",
+      "updatedAt": "2026-11-14T05:13:27.039Z",
+      "slug": "cloud-engineer",
+      "title": "Cloud & DevOps Engineer",
+      "category": "Infrastructure",
+      "description": "Architects scalable, fault-tolerant cloud infrastructures, automates CI/CD delivery pipelines, and manages container orchestration.",
+      "salaryRange": "$95,000 - $165,000",
+      "demandLevel": "Very High",
+      "growthRate": "+26% (Next 5 Years)",
+      "readinessBenchmark": 80,
+      "requiredSkills": [
+        {
+          "name": "Linux Administration",
+          "minProficiency": "Advanced",
+          "weight": 18,
+          "isCore": true,
+          "category": "Systems"
+        },
+        {
+          "name": "AWS / Cloud Providers",
+          "minProficiency": "Intermediate",
+          "weight": 20,
+          "isCore": true,
+          "category": "Cloud"
+        },
+        {
+          "name": "Docker & Containerization",
+          "minProficiency": "Intermediate",
+          "weight": 18,
+          "isCore": true,
+          "category": "DevOps"
+        },
+        {
+          "name": "Kubernetes Orchestration",
+          "minProficiency": "Intermediate",
+          "weight": 16,
+          "isCore": true,
+          "category": "DevOps"
+        },
+        {
+          "name": "Infrastructure as Code (Terraform)",
+          "minProficiency": "Intermediate",
+          "weight": 14,
+          "isCore": true,
+          "category": "Cloud"
+        },
+        {
+          "name": "CI/CD Pipelines (GitHub Actions)",
+          "minProficiency": "Intermediate",
+          "weight": 14,
+          "isCore": true,
+          "category": "DevOps"
+        }
+      ],
+      "milestones": [
+        "Linux kernel fundamentals, systemd, and bash automation",
+        "Core cloud computing primitives: VPC, EC2, S3, IAM, and Lambda",
+        "Containerizing multi-service web applications with Docker",
+        "Cluster management, deployments and ingress with Kubernetes",
+        "Automated infrastructure provisioning using Terraform scripts"
+      ]
+    },
+    {
+      "id": "career-uiux",
+      "createdAt": "2026-11-14T05:13:27.040Z",
+      "updatedAt": "2026-11-14T05:13:27.040Z",
+      "slug": "ui-ux-designer",
+      "title": "UI/UX Product Designer",
+      "category": "Design",
+      "description": "Crafts intuitive, accessible, research-backed digital product interfaces and scalable design systems for web and mobile platforms.",
+      "salaryRange": "$75,000 - $130,000",
+      "demandLevel": "High",
+      "growthRate": "+18% (Next 5 Years)",
+      "readinessBenchmark": 75,
+      "requiredSkills": [
+        {
+          "name": "Figma & UI Component Systems",
+          "minProficiency": "Advanced",
+          "weight": 25,
+          "isCore": true,
+          "category": "Design"
+        },
+        {
+          "name": "User Research & Usability Testing",
+          "minProficiency": "Intermediate",
+          "weight": 20,
+          "isCore": true,
+          "category": "UX"
+        },
+        {
+          "name": "Wireframing & Prototyping",
+          "minProficiency": "Advanced",
+          "weight": 20,
+          "isCore": true,
+          "category": "Design"
+        },
+        {
+          "name": "Information Architecture",
+          "minProficiency": "Intermediate",
+          "weight": 15,
+          "isCore": true,
+          "category": "UX"
+        },
+        {
+          "name": "Design Systems & Tokens",
+          "minProficiency": "Intermediate",
+          "weight": 12,
+          "isCore": true,
+          "category": "Design"
+        },
+        {
+          "name": "HTML & CSS Awareness",
+          "minProficiency": "Beginner",
+          "weight": 8,
+          "isCore": false,
+          "category": "Frontend"
+        }
+      ],
+      "milestones": [
+        "User persona development, empathy maps, and problem statements",
+        "Low-fidelity wireframing and user journey mapping",
+        "High-fidelity visual design, typography, spacing and color theory",
+        "Interactive micro-prototyping and design system tokens in Figma",
+        "Usability testing, heuristic evaluation and design handoff"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "s-py",
+      "createdAt": "2026-11-14T05:13:27.041Z",
+      "updatedAt": "2026-11-14T05:13:27.041Z",
+      "name": "Python",
+      "category": "Core",
+      "prerequisites": []
+    },
+    {
+      "id": "s-sql",
+      "createdAt": "2026-11-14T05:13:27.042Z",
+      "updatedAt": "2026-11-14T05:13:27.042Z",
+      "name": "SQL",
+      "category": "Database",
+      "prerequisites": []
+    },
+    {
+      "id": "s-html",
+      "createdAt": "2026-11-14T05:13:27.043Z",
+      "updatedAt": "2026-11-14T05:13:27.043Z",
+      "name": "HTML & CSS",
+      "category": "Frontend",
+      "prerequisites": []
+    },
+    {
+      "id": "s-js",
+      "createdAt": "2026-11-14T05:13:27.044Z",
+      "updatedAt": "2026-11-14T05:13:27.044Z",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "prerequisites": [
+        "HTML & CSS"
+      ]
+    },
+    {
+      "id": "s-react",
+      "createdAt": "2026-11-14T05:13:27.044Z",
+      "updatedAt": "2026-11-14T05:13:27.044Z",
+      "name": "React.js",
+      "category": "Frontend",
+      "prerequisites": [
+        "JavaScript",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "id": "s-node",
+      "createdAt": "2026-11-14T05:13:27.045Z",
+      "updatedAt": "2026-11-14T05:13:27.045Z",
+      "name": "Node.js",
+      "category": "Backend",
+      "prerequisites": [
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "s-exp",
+      "createdAt": "2026-11-14T05:13:27.047Z",
+      "updatedAt": "2026-11-14T05:13:27.047Z",
+      "name": "Express.js",
+      "category": "Backend",
+      "prerequisites": [
+        "Node.js",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "s-api",
+      "createdAt": "2026-11-14T05:13:27.047Z",
+      "updatedAt": "2026-11-14T05:13:27.047Z",
+      "name": "REST APIs",
+      "category": "Backend",
+      "prerequisites": [
+        "Express.js",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "s-db",
+      "createdAt": "2026-11-14T05:13:27.048Z",
+      "updatedAt": "2026-11-14T05:13:27.048Z",
+      "name": "Database Integration",
+      "category": "Database",
+      "prerequisites": [
+        "SQL",
+        "Node.js"
+      ]
+    },
+    {
+      "id": "s-git",
+      "createdAt": "2026-11-14T05:13:27.049Z",
+      "updatedAt": "2026-11-14T05:13:27.049Z",
+      "name": "Git & GitHub",
+      "category": "DevOps",
+      "prerequisites": []
+    },
+    {
+      "id": "s-ml",
+      "createdAt": "2026-11-14T05:13:27.050Z",
+      "updatedAt": "2026-11-14T05:13:27.050Z",
+      "name": "Machine Learning",
+      "category": "AI/ML",
+      "prerequisites": [
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "s-dl",
+      "createdAt": "2026-11-14T05:13:27.050Z",
+      "updatedAt": "2026-11-14T05:13:27.050Z",
+      "name": "Deep Learning & PyTorch",
+      "category": "AI/ML",
+      "prerequisites": [
+        "Machine Learning",
+        "Python"
+      ]
+    },
+    {
+      "id": "s-llm",
+      "createdAt": "2026-11-14T05:13:27.051Z",
+      "updatedAt": "2026-11-14T05:13:27.051Z",
+      "name": "Large Language Models (LLMs)",
+      "category": "AI/ML",
+      "prerequisites": [
+        "Deep Learning & PyTorch"
+      ]
+    },
+    {
+      "id": "s-rag",
+      "createdAt": "2026-11-14T05:13:27.054Z",
+      "updatedAt": "2026-11-14T05:13:27.054Z",
+      "name": "Prompt Engineering & RAG",
+      "category": "AI/ML",
+      "prerequisites": [
+        "Large Language Models (LLMs)"
+      ]
+    },
+    {
+      "id": "s-fastapi",
+      "createdAt": "2026-11-14T05:13:27.056Z",
+      "updatedAt": "2026-11-14T05:13:27.056Z",
+      "name": "FastAPI / Backend APIs",
+      "category": "Backend",
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "id": "s-pandas",
+      "createdAt": "2026-11-14T05:13:27.057Z",
+      "updatedAt": "2026-11-14T05:13:27.057Z",
+      "name": "Pandas & NumPy",
+      "category": "Data",
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "id": "s-stats",
+      "createdAt": "2026-11-14T05:13:27.058Z",
+      "updatedAt": "2026-11-14T05:13:27.058Z",
+      "name": "Statistics & Probability",
+      "category": "Theory",
+      "prerequisites": []
+    },
+    {
+      "id": "s-dataviz",
+      "createdAt": "2026-11-14T05:13:27.059Z",
+      "updatedAt": "2026-11-14T05:13:27.059Z",
+      "name": "Data Visualization (Seaborn/Plotly)",
+      "category": "Data",
+      "prerequisites": [
+        "Python",
+        "Pandas & NumPy"
+      ]
+    },
+    {
+      "id": "s-scikit",
+      "createdAt": "2026-11-14T05:13:27.060Z",
+      "updatedAt": "2026-11-14T05:13:27.060Z",
+      "name": "Scikit-Learn & Predictive Modeling",
+      "category": "AI/ML",
+      "prerequisites": [
+        "Python",
+        "Pandas & NumPy",
+        "Statistics & Probability"
+      ]
+    },
+    {
+      "id": "s-net",
+      "createdAt": "2026-11-14T05:13:27.061Z",
+      "updatedAt": "2026-11-14T05:13:27.061Z",
+      "name": "Computer Networking (TCP/IP)",
+      "category": "Networking",
+      "prerequisites": []
+    },
+    {
+      "id": "s-linux",
+      "createdAt": "2026-11-14T05:13:27.062Z",
+      "updatedAt": "2026-11-14T05:13:27.062Z",
+      "name": "Linux Administration",
+      "category": "Systems",
+      "prerequisites": []
+    },
+    {
+      "id": "s-owasp",
+      "createdAt": "2026-11-14T05:13:27.062Z",
+      "updatedAt": "2026-11-14T05:13:27.062Z",
+      "name": "Security Architecture & OWASP",
+      "category": "Security",
+      "prerequisites": [
+        "Computer Networking (TCP/IP)"
+      ]
+    },
+    {
+      "id": "s-vuln",
+      "createdAt": "2026-11-14T05:13:27.063Z",
+      "updatedAt": "2026-11-14T05:13:27.063Z",
+      "name": "Vulnerability Assessment",
+      "category": "Security",
+      "prerequisites": [
+        "Security Architecture & OWASP",
+        "Linux Administration"
+      ]
+    },
+    {
+      "id": "s-siem",
+      "createdAt": "2026-11-14T05:13:27.064Z",
+      "updatedAt": "2026-11-14T05:13:27.064Z",
+      "name": "Incident Response & SIEM",
+      "category": "Security",
+      "prerequisites": [
+        "Computer Networking (TCP/IP)"
+      ]
+    },
+    {
+      "id": "s-crypto",
+      "createdAt": "2026-11-14T05:13:27.064Z",
+      "updatedAt": "2026-11-14T05:13:27.064Z",
+      "name": "Cryptography Basics",
+      "category": "Security",
+      "prerequisites": []
+    },
+    {
+      "id": "s-aws",
+      "createdAt": "2026-11-14T05:13:27.065Z",
+      "updatedAt": "2026-11-14T05:13:27.065Z",
+      "name": "AWS / Cloud Providers",
+      "category": "Cloud",
+      "prerequisites": [
+        "Linux Administration",
+        "Computer Networking (TCP/IP)"
+      ]
+    },
+    {
+      "id": "s-docker",
+      "createdAt": "2026-11-14T05:13:27.066Z",
+      "updatedAt": "2026-11-14T05:13:27.066Z",
+      "name": "Docker & Containerization",
+      "category": "DevOps",
+      "prerequisites": [
+        "Linux Administration"
+      ]
+    },
+    {
+      "id": "s-k8s",
+      "createdAt": "2026-11-14T05:13:27.066Z",
+      "updatedAt": "2026-11-14T05:13:27.066Z",
+      "name": "Kubernetes Orchestration",
+      "category": "DevOps",
+      "prerequisites": [
+        "Docker & Containerization"
+      ]
+    },
+    {
+      "id": "s-tf",
+      "createdAt": "2026-11-14T05:13:27.067Z",
+      "updatedAt": "2026-11-14T05:13:27.067Z",
+      "name": "Infrastructure as Code (Terraform)",
+      "category": "Cloud",
+      "prerequisites": [
+        "AWS / Cloud Providers"
+      ]
+    },
+    {
+      "id": "s-cicd",
+      "createdAt": "2026-11-14T05:13:27.068Z",
+      "updatedAt": "2026-11-14T05:13:27.068Z",
+      "name": "CI/CD Pipelines (GitHub Actions)",
+      "category": "DevOps",
+      "prerequisites": [
+        "Git & GitHub",
+        "Docker & Containerization"
+      ]
+    },
+    {
+      "id": "s-figma",
+      "createdAt": "2026-11-14T05:13:27.071Z",
+      "updatedAt": "2026-11-14T05:13:27.071Z",
+      "name": "Figma & UI Component Systems",
+      "category": "Design",
+      "prerequisites": []
+    },
+    {
+      "id": "s-uxres",
+      "createdAt": "2026-11-14T05:13:27.072Z",
+      "updatedAt": "2026-11-14T05:13:27.072Z",
+      "name": "User Research & Usability Testing",
+      "category": "UX",
+      "prerequisites": []
+    },
+    {
+      "id": "s-wire",
+      "createdAt": "2026-11-14T05:13:27.073Z",
+      "updatedAt": "2026-11-14T05:13:27.073Z",
+      "name": "Wireframing & Prototyping",
+      "category": "Design",
+      "prerequisites": [
+        "Figma & UI Component Systems"
+      ]
+    },
+    {
+      "id": "s-ia",
+      "createdAt": "2026-11-14T05:13:27.074Z",
+      "updatedAt": "2026-11-14T05:13:27.074Z",
+      "name": "Information Architecture",
+      "category": "UX",
+      "prerequisites": [
+        "User Research & Usability Testing"
+      ]
+    },
+    {
+      "id": "s-ds",
+      "createdAt": "2026-11-14T05:13:27.076Z",
+      "updatedAt": "2026-11-14T05:13:27.076Z",
+      "name": "Design Systems & Tokens",
+      "category": "Design",
+      "prerequisites": [
+        "Figma & UI Component Systems"
+      ]
+    }
+  ],
+  "student_profiles": [
+    {
+      "id": "student-alex",
+      "createdAt": "2026-11-14T05:13:27.077Z",
+      "updatedAt": "2026-11-14T05:54:40.474Z",
+      "userId": "user-alex",
+      "fullName": "Alex Rivera",
+      "email": "alex@skillpath.ai",
+      "educationLevel": "Undergraduate",
+      "institution": "State Institute of Technology",
+      "degree": "B.S. in Computer Science (1st Year)",
+      "targetCareer": "Full Stack Developer",
+      "targetCareerId": "career-fsd",
+      "preferredLearningStyle": "Hands-on projects & Interactive drills",
+      "availableHoursPerDay": 3,
+      "interests": [
+        "Web Applications",
+        "AI Tooling",
+        "Cloud Architecture",
+        "Open Source"
+      ],
+      "technicalSkills": [
+        {
+          "name": "Python",
+          "proficiency": "Intermediate",
+          "verified": true,
+          "source": "Project Evidence & Coursework",
+          "confidence": 78
+        },
+        {
+          "name": "SQL",
+          "proficiency": "Intermediate",
+          "verified": true,
+          "source": "Lab Work & Database Assessment",
+          "confidence": 74
+        },
+        {
+          "name": "HTML & CSS",
+          "proficiency": "Beginner",
+          "verified": false,
+          "source": "Self-Reported",
+          "confidence": 45
+        },
+        {
+          "name": "JavaScript",
+          "verified": false,
+          "confidence": 20,
+          "proficiency": "Beginner",
+          "source": "Assessment Graded (20%)"
+        }
+      ],
+      "softSkills": [
+        {
+          "name": "Problem Solving",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "Analytical Thinking",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "Team Collaboration",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "title": "Python for Data & Automation",
+          "issuer": "CS50x Harvard",
+          "year": 2025,
+          "verified": true
+        }
+      ],
+      "projects": [
+        {
+          "id": "proj-prev-1",
+          "title": "Python CLI Expense Tracker",
+          "description": "Terminal utility that logs daily expenses into SQLite and computes categorical expenditure graphs.",
+          "skillsDemonstrated": [
+            "Python",
+            "SQL"
+          ],
+          "verified": true
+        }
+      ],
+      "careerReadiness": 4,
+      "skillConfidenceScore": 66,
+      "xp": 445,
+      "level": 3,
+      "streakDays": 4,
+      "lastActive": "2026-11-14T05:54:19.823Z"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "asm-js-1",
+      "createdAt": "2026-11-14T05:13:27.078Z",
+      "updatedAt": "2026-11-14T05:13:27.078Z",
+      "skillName": "JavaScript",
+      "title": "JavaScript Core Fundamentals & Asynchronous Programming",
+      "difficulty": "Intermediate",
+      "timeLimitMinutes": 10,
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What will `console.log(typeof NaN)` output in modern JavaScript?",
+          "options": [
+            "'number'",
+            "'undefined'",
+            "'NaN'",
+            "'object'"
+          ],
+          "correctIndex": 0,
+          "explanation": "In JavaScript, NaN (Not-a-Number) is a special numeric value defined by IEEE 754, so its typeof is 'number'.",
+          "topic": "Types & Coercion",
+          "prerequisiteCheck": "Basic Data Types"
+        },
+        {
+          "id": "q2",
+          "question": "Which keyword prevents reassignment of a variable binding while allowing internal mutation of object properties?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "freeze"
+          ],
+          "correctIndex": 2,
+          "explanation": "`const` declares a block-scoped constant reference, meaning the identifier cannot be reassigned, but properties of an assigned object or array can still be modified.",
+          "topic": "Variable Declarations",
+          "prerequisiteCheck": "Scope & Variables"
+        },
+        {
+          "id": "q3",
+          "question": "How does the JavaScript Event Loop handle microtasks (e.g. `Promise.then`) relative to macrotasks (e.g. `setTimeout`)?",
+          "options": [
+            "Macrotasks are executed before microtasks always",
+            "All queued microtasks are drained immediately after each script or task execution before the next macrotask runs",
+            "Microtasks and macrotasks alternate execution one by one",
+            "They run in parallel on separate browser threads"
+          ],
+          "correctIndex": 1,
+          "explanation": "The microtask queue has strict priority over the macrotask queue. Once the current stack clears, the engine drains all microtasks before picking the next macrotask.",
+          "topic": "Asynchronous Execution & Event Loop",
+          "prerequisiteCheck": "Promises & Callbacks"
+        },
+        {
+          "id": "q4",
+          "question": "What is the return value of `[1, 2, 3].reduce((acc, curr) => acc + curr, 10)`?",
+          "options": [
+            "6",
+            "16",
+            "10",
+            "NaN"
+          ],
+          "correctIndex": 1,
+          "explanation": "The accumulator starts with initial value 10, then adds 1, 2, and 3, yielding 10 + 1 + 2 + 3 = 16.",
+          "topic": "Array Higher-Order Functions",
+          "prerequisiteCheck": "Functional Array Methods"
+        },
+        {
+          "id": "q5",
+          "question": "In standard closures, what does an inner function retain access to?",
+          "options": [
+            "Only variables declared inside itself",
+            "Only global variables",
+            "Its outer (enclosing) function's lexical scope even after that outer function has returned",
+            "Only variables passed as formal parameters"
+          ],
+          "correctIndex": 2,
+          "explanation": "A closure is the combination of a function bundled together with references to its surrounding state (lexical environment).",
+          "topic": "Closures & Scope Chain",
+          "prerequisiteCheck": "Lexical Scope"
+        }
+      ]
+    },
+    {
+      "id": "asm-react-1",
+      "createdAt": "2026-11-14T05:13:27.079Z",
+      "updatedAt": "2026-11-14T05:13:27.079Z",
+      "skillName": "React.js",
+      "title": "React Components, Hooks & Virtual DOM",
+      "difficulty": "Intermediate",
+      "timeLimitMinutes": 10,
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "rq1",
+          "question": "Why should you never call React Hooks inside loops, conditions, or nested functions?",
+          "options": [
+            "It causes JavaScript syntax compilation errors",
+            "React relies on the call order of hooks across render cycles to preserve state bindings correctly",
+            "Hooks consume too much memory when called conditionally",
+            "Browser engines do not support dynamic functions"
+          ],
+          "correctIndex": 1,
+          "explanation": "React relies on a predictable array index based on the call order of hooks during each component render cycle.",
+          "topic": "Rules of Hooks",
+          "prerequisiteCheck": "React Lifecycle"
+        },
+        {
+          "id": "rq2",
+          "question": "What is the primary function of the virtual DOM in React?",
+          "options": [
+            "Directly replace the browser DOM with a web assembly canvas",
+            "Maintain a lightweight in-memory representation to compute minimal actual DOM mutations via reconciliation",
+            "Store component state in persistent local storage",
+            "Bypass CSS styling and render faster"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Virtual DOM computes diffs (reconciliation) and batches updates so only necessary changes are pushed to the slow browser DOM.",
+          "topic": "Virtual DOM Reconciliation",
+          "prerequisiteCheck": "DOM Fundamentals"
+        },
+        {
+          "id": "rq3",
+          "question": "When should you provide a cleanup function inside `useEffect`?",
+          "options": [
+            "Whenever a component makes a GET request",
+            "To unsubscribe from event listeners, clear intervals, or cancel pending network subscriptions when the component unmounts or before re-running the effect",
+            "Only when the dependency array is empty",
+            "Cleanup functions are deprecated in React 18+"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cleanup functions execute when the component unmounts or prior to re-running the effect when dependencies change.",
+          "topic": "Side Effects & Subscriptions",
+          "prerequisiteCheck": "Async Operations"
+        }
+      ]
+    },
+    {
+      "id": "asm-node-1",
+      "createdAt": "2026-11-14T05:13:27.079Z",
+      "updatedAt": "2026-11-14T05:13:27.079Z",
+      "skillName": "Node.js",
+      "title": "Node.js Runtime, Modules & Stream Architecture",
+      "difficulty": "Intermediate",
+      "timeLimitMinutes": 10,
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "nq1",
+          "question": "How does Node.js achieve high concurrency despite running on a single main execution thread?",
+          "options": [
+            "By spinning up a new OS thread for every incoming HTTP socket connection",
+            "Via non-blocking event-driven I/O supported by the libuv thread pool and OS asynchronous primitives",
+            "By executing JavaScript in multi-threaded parallel byte-code blocks",
+            "It cannot handle concurrency without third-party plugins"
+          ],
+          "correctIndex": 1,
+          "explanation": "Node.js utilizes an event loop with non-blocking I/O, delegating blocking tasks (DNS, file I/O, crypto) to libuv's background thread pool.",
+          "topic": "Event-Driven Architecture",
+          "prerequisiteCheck": "Operating System Basics"
+        },
+        {
+          "id": "nq2",
+          "question": "Which HTTP status code must an idempotent REST API return when a resource is successfully updated with `PUT`?",
+          "options": [
+            "200 OK or 204 No Content",
+            "201 Created",
+            "304 Not Modified",
+            "400 Bad Request"
+          ],
+          "correctIndex": 0,
+          "explanation": "PUT updates a resource idempotently; returning 200 with the updated entity or 204 with no body is standard REST practice.",
+          "topic": "REST Protocol Standards",
+          "prerequisiteCheck": "HTTP Status Codes"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "miss-1",
+      "createdAt": "2026-11-14T05:13:27.080Z",
+      "updatedAt": "2026-11-14T05:13:27.080Z",
+      "title": "Mission 1: Modern Responsive Developer Portfolio",
+      "slug": "responsive-portfolio",
+      "category": "Frontend",
+      "difficulty": "Beginner",
+      "xpReward": 150,
+      "estimatedHours": 4,
+      "requiredSkills": [
+        "HTML & CSS",
+        "Git & GitHub"
+      ],
+      "objective": "Engineer a high-performance, mobile-responsive portfolio site showcasing your projects, technical skills, and interactive contact modal.",
+      "instructions": [
+        "Use modern semantic HTML5 (`<header>`, `<main>`, `<section>`, `<footer>`).",
+        "Implement responsive layout using CSS Flexbox and CSS Grid without frameworks.",
+        "Support responsive media queries for mobile (<640px), tablet (<1024px) and desktop.",
+        "Add smooth scrolling and accessible form labels.",
+        "Push your code to a public GitHub repository."
+      ],
+      "rubrics": [
+        {
+          "criterion": "Semantic Markup & Accessibility",
+          "maxScore": 25,
+          "description": "Valid HTML5 semantics and ARIA tags."
+        },
+        {
+          "criterion": "Responsive CSS Layout",
+          "maxScore": 35,
+          "description": "Flawless mobile, tablet and desktop layout."
+        },
+        {
+          "criterion": "Visual Aesthetic & Typography",
+          "maxScore": 20,
+          "description": "Consistent spacing, dark theme contrast."
+        },
+        {
+          "criterion": "Git Workflow & Documentation",
+          "maxScore": 20,
+          "description": "Clean commit history and structured README."
+        }
+      ]
+    },
+    {
+      "id": "miss-2",
+      "createdAt": "2026-11-14T05:13:27.081Z",
+      "updatedAt": "2026-11-14T05:13:27.081Z",
+      "title": "Mission 2: Interactive Dynamic Budget & Expense Engine",
+      "slug": "budget-tracker-js",
+      "category": "Frontend",
+      "difficulty": "Intermediate",
+      "xpReward": 250,
+      "estimatedHours": 6,
+      "requiredSkills": [
+        "JavaScript",
+        "HTML & CSS"
+      ],
+      "objective": "Build an interactive financial calculation dashboard with dynamic DOM manipulation, real-time balance totals, and local storage caching.",
+      "instructions": [
+        "Create entry forms for income and expense transactions with validation.",
+        "Dynamically create and append DOM cards for each recorded transaction.",
+        "Recalculate total balance, cumulative income, and total expenses automatically using `reduce()`.",
+        "Persist transaction records across page refreshes via `localStorage`.",
+        "Implement categorical filtering (food, rent, tech, education)."
+      ],
+      "rubrics": [
+        {
+          "criterion": "DOM Manipulation & Events",
+          "maxScore": 30,
+          "description": "Clean event listeners and element generation."
+        },
+        {
+          "criterion": "Data State & Calculation Logic",
+          "maxScore": 30,
+          "description": "Accurate mathematical reduction and edge cases."
+        },
+        {
+          "criterion": "Persistence & Validation",
+          "maxScore": 20,
+          "description": "LocalStorage and form input boundary checks."
+        },
+        {
+          "criterion": "Code Structure & Cleanliness",
+          "maxScore": 20,
+          "description": "Modular JS functions, descriptive variable names."
+        }
+      ]
+    },
+    {
+      "id": "miss-3",
+      "createdAt": "2026-11-14T05:13:27.082Z",
+      "updatedAt": "2026-11-14T05:13:27.082Z",
+      "title": "Mission 3: React Flow - Agile Task & Kanban Manager",
+      "slug": "react-task-manager",
+      "category": "Frontend",
+      "difficulty": "Intermediate",
+      "xpReward": 350,
+      "estimatedHours": 8,
+      "requiredSkills": [
+        "React.js",
+        "JavaScript"
+      ],
+      "objective": "Develop a component-driven Kanban board with customizable columns, priority tags, search filters, and reactive state updates.",
+      "instructions": [
+        "Decompose UI into modular React components (`Column`, `TaskCard`, `NewTaskModal`, `FilterBar`).",
+        "Manage task state using React `useState` and `useReducer` for complex actions.",
+        "Enable moving tasks between 'To Do', 'In Progress', and 'Completed' lanes.",
+        "Add search bar filtering tasks by title, tag, or priority.",
+        "Demonstrate custom hooks for state synchronization."
+      ],
+      "rubrics": [
+        {
+          "criterion": "Component Architecture",
+          "maxScore": 30,
+          "description": "Clean props passing, reusability, single responsibility."
+        },
+        {
+          "criterion": "State Management with Hooks",
+          "maxScore": 30,
+          "description": "Proper use of hooks and immutable state patterns."
+        },
+        {
+          "criterion": "User Experience & Responsiveness",
+          "maxScore": 20,
+          "description": "Smooth column transitions and responsive layout."
+        },
+        {
+          "criterion": "Edge Cases & Validation",
+          "maxScore": 20,
+          "description": "Handling empty columns and validation errors."
+        }
+      ]
+    },
+    {
+      "id": "miss-4",
+      "createdAt": "2026-11-14T05:13:27.083Z",
+      "updatedAt": "2026-11-14T05:13:27.083Z",
+      "title": "Mission 4: Resilient RESTful API with Authentication",
+      "slug": "nodejs-rest-api",
+      "category": "Backend",
+      "difficulty": "Advanced",
+      "xpReward": 450,
+      "estimatedHours": 10,
+      "requiredSkills": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Database Integration"
+      ],
+      "objective": "Architect a robust backend REST API featuring JWT authentication, route protection middleware, schema validation, and database CRUD operations.",
+      "instructions": [
+        "Setup Express application with structured controllers, routes, and middleware.",
+        "Implement `POST /auth/register` and `POST /auth/login` with password hashing (`bcrypt`) and JWT issuance.",
+        "Build authentication middleware verifying Bearer tokens on protected endpoints.",
+        "Implement CRUD endpoints for user resources with status codes (200, 201, 400, 401, 404, 500).",
+        "Connect routes to SQLite or MongoDB database with transactional safety."
+      ],
+      "rubrics": [
+        {
+          "criterion": "API Design & REST Standards",
+          "maxScore": 30,
+          "description": "Strict HTTP semantics, idempotency, JSON schemas."
+        },
+        {
+          "criterion": "Security & Authentication",
+          "maxScore": 30,
+          "description": "Safe password hashing, JWT expiry, token extraction."
+        },
+        {
+          "criterion": "Database Schema & Queries",
+          "maxScore": 25,
+          "description": "Normalized relational schema or clean document design."
+        },
+        {
+          "criterion": "Error Handling & Logging",
+          "maxScore": 15,
+          "description": "Global centralized error middleware and audit logs."
+        }
+      ]
+    },
+    {
+      "id": "miss-5",
+      "createdAt": "2026-11-14T05:13:27.083Z",
+      "updatedAt": "2026-11-14T05:13:27.083Z",
+      "title": "Mission 5: Full-Stack Career Intelligence Engine",
+      "slug": "fullstack-capstone",
+      "category": "Full Stack",
+      "difficulty": "Advanced",
+      "xpReward": 600,
+      "estimatedHours": 15,
+      "requiredSkills": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "Database Integration",
+        "REST APIs"
+      ],
+      "objective": "Assemble an end-to-end full-stack web application uniting a React interface with a Node.js REST API and persistent database.",
+      "instructions": [
+        "Connect React client to backend Express server via asynchronous API fetch/axios.",
+        "Store authentication tokens securely in client state and attach to HTTP headers.",
+        "Render real-time data visualizations (charts, status badges) based on server data.",
+        "Implement optimistic UI updates with error rollback handling.",
+        "Deploy or bundle both frontend and backend for production execution."
+      ],
+      "rubrics": [
+        {
+          "criterion": "Full-Stack Integration",
+          "maxScore": 35,
+          "description": "Seamless client-server protocol and state synchronization."
+        },
+        {
+          "criterion": "Feature Completeness",
+          "maxScore": 30,
+          "description": "All promised features work without runtime breaks."
+        },
+        {
+          "criterion": "Code Quality & Patterns",
+          "maxScore": 20,
+          "description": "Clean async handling, modular imports, defensive coding."
+        },
+        {
+          "criterion": "UI Polish & Experience",
+          "maxScore": 15,
+          "description": "Professional futuristic styling and feedback toasts."
+        }
+      ]
+    }
+  ],
+  "learning_resources": [
+    {
+      "id": "res-1",
+      "createdAt": "2026-11-14T05:13:27.084Z",
+      "updatedAt": "2026-11-14T05:13:27.084Z",
+      "skill": "HTML & CSS",
+      "title": "MDN Web Docs: Responsive Web Design Essentials",
+      "provider": "Mozilla Developer Network",
+      "type": "Documentation",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design",
+      "duration": "4 hours",
+      "difficulty": "Beginner",
+      "cost": "Free",
+      "rating": 4.9,
+      "keyTopics": [
+        "Flexbox",
+        "CSS Grid",
+        "Media Queries",
+        "Fluid Typography"
+      ]
+    },
+    {
+      "id": "res-2",
+      "createdAt": "2026-11-14T05:13:27.088Z",
+      "updatedAt": "2026-11-14T05:13:27.088Z",
+      "skill": "JavaScript",
+      "title": "Modern JavaScript Deep Dive & Async Mastery",
+      "provider": "javascript.info",
+      "type": "Interactive Tutorial",
+      "url": "https://javascript.info/",
+      "duration": "12 hours",
+      "difficulty": "Intermediate",
+      "cost": "Free",
+      "rating": 4.95,
+      "keyTopics": [
+        "Closures",
+        "Promises",
+        "Async/Await",
+        "Event Loop",
+        "Prototypes"
+      ]
+    },
+    {
+      "id": "res-3",
+      "createdAt": "2026-11-14T05:13:27.090Z",
+      "updatedAt": "2026-11-14T05:13:27.090Z",
+      "skill": "React.js",
+      "title": "The Official React Tutorial: Thinking in React",
+      "provider": "React Documentation",
+      "type": "Interactive Guide",
+      "url": "https://react.dev/learn",
+      "duration": "8 hours",
+      "difficulty": "Intermediate",
+      "cost": "Free",
+      "rating": 4.9,
+      "keyTopics": [
+        "Component Trees",
+        "State Management",
+        "Hooks",
+        "Reconciliation"
+      ]
+    },
+    {
+      "id": "res-4",
+      "createdAt": "2026-11-14T05:13:27.091Z",
+      "updatedAt": "2026-11-14T05:13:27.091Z",
+      "skill": "Node.js",
+      "title": "Node.js Architecture & Asynchronous I/O Guide",
+      "provider": "Nodejs.org",
+      "type": "Documentation",
+      "url": "https://nodejs.org/en/docs/guides",
+      "duration": "6 hours",
+      "difficulty": "Intermediate",
+      "cost": "Free",
+      "rating": 4.8,
+      "keyTopics": [
+        "Event Loop",
+        "Modules",
+        "Streams",
+        "HTTP Module",
+        "Buffers"
+      ]
+    },
+    {
+      "id": "res-5",
+      "createdAt": "2026-11-14T05:13:27.092Z",
+      "updatedAt": "2026-11-14T05:13:27.092Z",
+      "skill": "Express.js",
+      "title": "Building Enterprise RESTful APIs with Express",
+      "provider": "freeCodeCamp",
+      "type": "Full Course",
+      "url": "https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb/",
+      "duration": "5 hours",
+      "difficulty": "Intermediate",
+      "cost": "Free",
+      "rating": 4.85,
+      "keyTopics": [
+        "Routing",
+        "Middleware",
+        "CORS",
+        "Error Handling",
+        "JWT"
+      ]
+    },
+    {
+      "id": "res-6",
+      "createdAt": "2026-11-14T05:13:27.092Z",
+      "updatedAt": "2026-11-14T05:13:27.092Z",
+      "skill": "Database Integration",
+      "title": "Relational Modeling & SQL Query Optimization",
+      "provider": "SQLZoo & Postgres Guide",
+      "type": "Interactive Sandbox",
+      "url": "https://sqlzoo.net/",
+      "duration": "6 hours",
+      "difficulty": "Intermediate",
+      "cost": "Free",
+      "rating": 4.8,
+      "keyTopics": [
+        "Foreign Keys",
+        "Joins",
+        "Transactions",
+        "Indexes",
+        "Normalization"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "user-alex",
+      "createdAt": "2026-11-14T05:13:27.093Z",
+      "updatedAt": "2026-11-14T05:13:27.093Z",
+      "email": "alex@skillpath.ai",
+      "passwordHash": "demo_hash_alex_2026",
+      "name": "Alex Rivera",
+      "role": "student"
+    }
+  ],
+  "assessment_results": [
+    {
+      "id": "ass-1794635680393-q2wv8",
+      "createdAt": "2026-11-14T05:54:40.393Z",
+      "updatedAt": "2026-11-14T05:54:40.393Z",
+      "studentId": "student-alex",
+      "assessmentId": "asm-js-1",
+      "skillName": "JavaScript",
+      "score": 20,
+      "passed": false,
+      "weakTopics": [
+        "Types & Coercion",
+        "Asynchronous Execution & Event Loop",
+        "Array Higher-Order Functions",
+        "Closures & Scope Chain"
+      ],
+      "answers": {
+        "q1": 1,
+        "q2": 2,
+        "q3": 3,
+        "q4": 2,
+        "q5": 1
+      },
+      "requiresRescue": true
+    }
+  ],
+  "project_evaluations": [],
+  "agent_activity_logs": [
+    {
+      "id": "age-1794633261998-5j7zr",
+      "createdAt": "2026-11-14T05:14:21.999Z",
+      "updatedAt": "2026-11-14T05:14:21.999Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:14:21.998Z"
+    },
+    {
+      "id": "age-1794633262004-p10r1",
+      "createdAt": "2026-11-14T05:14:22.004Z",
+      "updatedAt": "2026-11-14T05:14:22.004Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:14:22.004Z"
+    },
+    {
+      "id": "age-1794633262007-pnflv",
+      "createdAt": "2026-11-14T05:14:22.007Z",
+      "updatedAt": "2026-11-14T05:14:22.008Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:14:22.007Z"
+    },
+    {
+      "id": "age-1794633262011-9vfak",
+      "createdAt": "2026-11-14T05:14:22.011Z",
+      "updatedAt": "2026-11-14T05:14:22.011Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:14:22.011Z"
+    },
+    {
+      "id": "age-1794633262013-df91q",
+      "createdAt": "2026-11-14T05:14:22.013Z",
+      "updatedAt": "2026-11-14T05:14:22.013Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:14:22.013Z"
+    },
+    {
+      "id": "age-1794633262015-vff7m",
+      "createdAt": "2026-11-14T05:14:22.015Z",
+      "updatedAt": "2026-11-14T05:14:22.015Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:14:22.015Z"
+    },
+    {
+      "id": "age-1794634653700-o44pi",
+      "createdAt": "2026-11-14T05:37:33.700Z",
+      "updatedAt": "2026-11-14T05:37:33.700Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:37:33.700Z"
+    },
+    {
+      "id": "age-1794634653704-04d72",
+      "createdAt": "2026-11-14T05:37:33.704Z",
+      "updatedAt": "2026-11-14T05:37:33.704Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:37:33.704Z"
+    },
+    {
+      "id": "age-1794634653710-6du5l",
+      "createdAt": "2026-11-14T05:37:33.710Z",
+      "updatedAt": "2026-11-14T05:37:33.710Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:37:33.710Z"
+    },
+    {
+      "id": "age-1794634653715-ufcy7",
+      "createdAt": "2026-11-14T05:37:33.715Z",
+      "updatedAt": "2026-11-14T05:37:33.715Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:37:33.715Z"
+    },
+    {
+      "id": "age-1794634653719-icxrh",
+      "createdAt": "2026-11-14T05:37:33.719Z",
+      "updatedAt": "2026-11-14T05:37:33.719Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:37:33.719Z"
+    },
+    {
+      "id": "age-1794634653723-v7sy8",
+      "createdAt": "2026-11-14T05:37:33.723Z",
+      "updatedAt": "2026-11-14T05:37:33.723Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:37:33.723Z"
+    },
+    {
+      "id": "age-1794635657927-lyo2q",
+      "createdAt": "2026-11-14T05:54:17.930Z",
+      "updatedAt": "2026-11-14T05:54:17.930Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:54:17.927Z"
+    },
+    {
+      "id": "age-1794635657942-rv8v0",
+      "createdAt": "2026-11-14T05:54:17.942Z",
+      "updatedAt": "2026-11-14T05:54:17.942Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:54:17.942Z"
+    },
+    {
+      "id": "age-1794635657946-b4i9y",
+      "createdAt": "2026-11-14T05:54:17.946Z",
+      "updatedAt": "2026-11-14T05:54:17.946Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:54:17.946Z"
+    },
+    {
+      "id": "age-1794635657949-fdz1r",
+      "createdAt": "2026-11-14T05:54:17.949Z",
+      "updatedAt": "2026-11-14T05:54:17.949Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:17.949Z"
+    },
+    {
+      "id": "age-1794635657951-1x1zb",
+      "createdAt": "2026-11-14T05:54:17.951Z",
+      "updatedAt": "2026-11-14T05:54:17.951Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:54:17.951Z"
+    },
+    {
+      "id": "age-1794635657954-b4uy6",
+      "createdAt": "2026-11-14T05:54:17.954Z",
+      "updatedAt": "2026-11-14T05:54:17.954Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 1,
+      "timestamp": "2026-11-14T05:54:17.954Z"
+    },
+    {
+      "id": "age-1794635658959-yjw6f",
+      "createdAt": "2026-11-14T05:54:18.959Z",
+      "updatedAt": "2026-11-14T05:54:18.959Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:18.959Z"
+    },
+    {
+      "id": "age-1794635658966-beaqr",
+      "createdAt": "2026-11-14T05:54:18.966Z",
+      "updatedAt": "2026-11-14T05:54:18.966Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:18.961Z"
+    },
+    {
+      "id": "age-1794635658970-4x9ko",
+      "createdAt": "2026-11-14T05:54:18.970Z",
+      "updatedAt": "2026-11-14T05:54:18.970Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:18.970Z"
+    },
+    {
+      "id": "age-1794635658974-fe3i2",
+      "createdAt": "2026-11-14T05:54:18.974Z",
+      "updatedAt": "2026-11-14T05:54:18.974Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:18.974Z"
+    },
+    {
+      "id": "age-1794635658975-b3s8k",
+      "createdAt": "2026-11-14T05:54:18.975Z",
+      "updatedAt": "2026-11-14T05:54:18.975Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:54:18.975Z"
+    },
+    {
+      "id": "age-1794635658977-03k8z",
+      "createdAt": "2026-11-14T05:54:18.977Z",
+      "updatedAt": "2026-11-14T05:54:18.977Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:18.977Z"
+    },
+    {
+      "id": "age-1794635659370-hnv8o",
+      "createdAt": "2026-11-14T05:54:19.370Z",
+      "updatedAt": "2026-11-14T05:54:19.370Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.370Z"
+    },
+    {
+      "id": "age-1794635659372-lnfg7",
+      "createdAt": "2026-11-14T05:54:19.372Z",
+      "updatedAt": "2026-11-14T05:54:19.372Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.372Z"
+    },
+    {
+      "id": "age-1794635659373-qz8vi",
+      "createdAt": "2026-11-14T05:54:19.373Z",
+      "updatedAt": "2026-11-14T05:54:19.373Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.373Z"
+    },
+    {
+      "id": "age-1794635659375-cpeo5",
+      "createdAt": "2026-11-14T05:54:19.375Z",
+      "updatedAt": "2026-11-14T05:54:19.375Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.375Z"
+    },
+    {
+      "id": "age-1794635659378-ku6mr",
+      "createdAt": "2026-11-14T05:54:19.378Z",
+      "updatedAt": "2026-11-14T05:54:19.378Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:54:19.378Z"
+    },
+    {
+      "id": "age-1794635659380-ad7dj",
+      "createdAt": "2026-11-14T05:54:19.380Z",
+      "updatedAt": "2026-11-14T05:54:19.380Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.380Z"
+    },
+    {
+      "id": "age-1794635659588-cra7u",
+      "createdAt": "2026-11-14T05:54:19.588Z",
+      "updatedAt": "2026-11-14T05:54:19.588Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.588Z"
+    },
+    {
+      "id": "age-1794635659590-yj6o5",
+      "createdAt": "2026-11-14T05:54:19.590Z",
+      "updatedAt": "2026-11-14T05:54:19.590Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.590Z"
+    },
+    {
+      "id": "age-1794635659591-ha3jd",
+      "createdAt": "2026-11-14T05:54:19.591Z",
+      "updatedAt": "2026-11-14T05:54:19.591Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.591Z"
+    },
+    {
+      "id": "age-1794635659593-gudcr",
+      "createdAt": "2026-11-14T05:54:19.593Z",
+      "updatedAt": "2026-11-14T05:54:19.593Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.593Z"
+    },
+    {
+      "id": "age-1794635659594-yd25g",
+      "createdAt": "2026-11-14T05:54:19.594Z",
+      "updatedAt": "2026-11-14T05:54:19.594Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:54:19.594Z"
+    },
+    {
+      "id": "age-1794635659601-jzm01",
+      "createdAt": "2026-11-14T05:54:19.601Z",
+      "updatedAt": "2026-11-14T05:54:19.601Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.601Z"
+    },
+    {
+      "id": "age-1794635659809-adjj9",
+      "createdAt": "2026-11-14T05:54:19.809Z",
+      "updatedAt": "2026-11-14T05:54:19.809Z",
+      "agentName": "Skill Analysis Agent (Skill Detective)",
+      "agentId": "agent-1-skill-detective",
+      "task": "Audited technical skills & evaluated verification confidence",
+      "status": "Completed",
+      "inputSummary": "Profile: Alex Rivera, Skills: 3",
+      "outputSummary": "Classified 3 skills. Avg Confidence: 66%",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.809Z"
+    },
+    {
+      "id": "age-1794635659810-vq1tw",
+      "createdAt": "2026-11-14T05:54:19.810Z",
+      "updatedAt": "2026-11-14T05:54:19.810Z",
+      "agentName": "Career Matching Agent (Career Architect)",
+      "agentId": "agent-2-career-architect",
+      "task": "Calculated Career Twin readiness for Full Stack Developer",
+      "status": "Completed",
+      "inputSummary": "Career: Full Stack Developer, Input Skills: 3",
+      "outputSummary": "Readiness: 4%. Matches: 1, Missing: 7",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.810Z"
+    },
+    {
+      "id": "age-1794635659819-10bw9",
+      "createdAt": "2026-11-14T05:54:19.819Z",
+      "updatedAt": "2026-11-14T05:54:19.819Z",
+      "agentName": "Skill Gap Prediction Agent (Gap Predictor)",
+      "agentId": "agent-3-gap-predictor",
+      "task": "Predicted prerequisite dependencies & formulated sequence",
+      "status": "Completed",
+      "inputSummary": "Missing skills from Career Architect: 7",
+      "outputSummary": "Found 6 critical bottlenecks. Built topological dependency chain.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.819Z"
+    },
+    {
+      "id": "age-1794635659821-fzft9",
+      "createdAt": "2026-11-14T05:54:19.821Z",
+      "updatedAt": "2026-11-14T05:54:19.821Z",
+      "agentName": "Learning Recommendation Agent (Learning Researcher)",
+      "agentId": "agent-4-learning-researcher",
+      "task": "Synthesized adaptive learning roadmap & recommended open resources",
+      "status": "Completed",
+      "inputSummary": "Gaps: 6, Learner Style: Hands-on projects & Interactive drills",
+      "outputSummary": "Created 8-stage progression spanning ~20 weeks.",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.821Z"
+    },
+    {
+      "id": "age-1794635659822-xbfic",
+      "createdAt": "2026-11-14T05:54:19.822Z",
+      "updatedAt": "2026-11-14T05:54:19.822Z",
+      "agentName": "Progress Evaluation Agent (Performance Evaluator)",
+      "agentId": "agent-5-performance-evaluator",
+      "task": "Monitored learning velocity, XP trends & rescue triggers",
+      "status": "Completed",
+      "inputSummary": "XP: 420, Streak: 4 days",
+      "outputSummary": "Progress normal. No active rescue blockers. Passed prerequisites clear.",
+      "executionTimeMs": 12,
+      "timestamp": "2026-11-14T05:54:19.822Z"
+    },
+    {
+      "id": "age-1794635659822-q3ftu",
+      "createdAt": "2026-11-14T05:54:19.822Z",
+      "updatedAt": "2026-11-14T05:54:19.822Z",
+      "agentName": "AI Mentor & Orchestrator Agent (Vera)",
+      "agentId": "agent-6-ai-mentor",
+      "task": "Synthesized multi-agent recommendations into daily briefing for student",
+      "status": "Completed",
+      "inputSummary": "Combined outputs from Agents 1, 2, 3, 4, and 5",
+      "outputSummary": "Synthesized today's focus on: Focus on JavaScript & Stage 1",
+      "executionTimeMs": 0,
+      "timestamp": "2026-11-14T05:54:19.822Z"
+    }
+  ],
+  "learning_roadmaps": [
+    {
+      "id": "lea-1794633262022-ru1v8",
+      "createdAt": "2026-11-14T05:14:22.022Z",
+      "updatedAt": "2026-11-14T05:54:40.557Z",
+      "studentId": "student-alex",
+      "careerId": "career-fsd",
+      "stages": [
+        {
+          "stageNumber": 1,
+          "title": "HTML5 & Modern Responsive CSS",
+          "focusSkills": [
+            "HTML & CSS",
+            "Git & GitHub"
+          ],
+          "durationWeeks": 2,
+          "difficulty": "Beginner",
+          "status": "in-progress",
+          "completed": false,
+          "completionPercentage": 60,
+          "description": "Solidify semantic document architecture, Flexbox/Grid layouts, and version control discipline.",
+          "modules": [
+            {
+              "id": "rescue-1794635680556",
+              "title": "[LEARNING RESCUE] JavaScript Remedial Recovery",
+              "completed": false,
+              "duration": "25 min",
+              "rescueTag": true
+            },
+            {
+              "id": "m1-1",
+              "title": "Semantic HTML5 Tags & Accessibility (ARIA)",
+              "completed": true,
+              "duration": "3h"
+            },
+            {
+              "id": "m1-2",
+              "title": "CSS Flexbox & CSS Grid Mastery",
+              "completed": true,
+              "duration": "5h"
+            },
+            {
+              "id": "m1-3",
+              "title": "Mobile-First Media Queries & Responsive Typography",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m1-4",
+              "title": "Git Branching, Pull Requests & GitHub",
+              "completed": false,
+              "duration": "2h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Build Responsive Developer Portfolio",
+            "missionSlug": "responsive-portfolio",
+            "xpReward": 150
+          },
+          "assessmentTrigger": "HTML & CSS Benchmark Exam"
+        },
+        {
+          "stageNumber": 2,
+          "title": "Modern JavaScript Deep Dive (ES6+ & Async)",
+          "focusSkills": [
+            "JavaScript"
+          ],
+          "durationWeeks": 3,
+          "difficulty": "Intermediate",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Master lexical scope, closures, array methods, Promise chains, and async/await event loops.",
+          "modules": [
+            {
+              "id": "m2-1",
+              "title": "Lexical Scope, Closures & Execution Context",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m2-2",
+              "title": "Higher-Order Functions & Array Reductions",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m2-3",
+              "title": "Promises, Async/Await & Fetch API",
+              "completed": false,
+              "duration": "5h"
+            },
+            {
+              "id": "m2-4",
+              "title": "DOM Manipulation & Event Propagation",
+              "completed": false,
+              "duration": "4h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Interactive Dynamic Budget Tracker",
+            "missionSlug": "budget-tracker-js",
+            "xpReward": 250
+          },
+          "assessmentTrigger": "JavaScript Core Fundamentals (asm-js-1)"
+        },
+        {
+          "stageNumber": 3,
+          "title": "React.js Component Architecture & Reactive State",
+          "focusSkills": [
+            "React.js"
+          ],
+          "durationWeeks": 3,
+          "difficulty": "Intermediate",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Construct modular, declarative user interfaces utilizing React 18+ hooks, effects, and virtual DOM diffing.",
+          "modules": [
+            {
+              "id": "m3-1",
+              "title": "JSX, Component Decomposition & Props Contracts",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m3-2",
+              "title": "State Management with useState & useReducer",
+              "completed": false,
+              "duration": "6h"
+            },
+            {
+              "id": "m3-3",
+              "title": "useEffect Lifecycles & Asynchronous Subscriptions",
+              "completed": false,
+              "duration": "5h"
+            },
+            {
+              "id": "m3-4",
+              "title": "Custom React Hooks & Context API",
+              "completed": false,
+              "duration": "4h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "React Flow - Agile Kanban Manager",
+            "missionSlug": "react-task-manager",
+            "xpReward": 350
+          },
+          "assessmentTrigger": "React Components & Hooks Exam (asm-react-1)"
+        },
+        {
+          "stageNumber": 4,
+          "title": "Node.js Server Runtime & Streams Architecture",
+          "focusSkills": [
+            "Node.js"
+          ],
+          "durationWeeks": 2,
+          "difficulty": "Intermediate",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Understand non-blocking event-driven backend execution, core Node modules, and buffer/stream pipelines.",
+          "modules": [
+            {
+              "id": "m4-1",
+              "title": "Node.js Event Loop & Non-Blocking I/O Internals",
+              "completed": false,
+              "duration": "3h"
+            },
+            {
+              "id": "m4-2",
+              "title": "Native HTTP Server & Module Systems (ESM/CJS)",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m4-3",
+              "title": "File System Operations & Asynchronous Streams",
+              "completed": false,
+              "duration": "4h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Custom CLI File Ingestion Stream Processor",
+            "missionSlug": "nodejs-cli-stream",
+            "xpReward": 300
+          },
+          "assessmentTrigger": "Node.js Runtime Architecture Exam (asm-node-1)"
+        },
+        {
+          "stageNumber": 5,
+          "title": "Express.js & RESTful API Engineering",
+          "focusSkills": [
+            "Express.js",
+            "REST APIs"
+          ],
+          "durationWeeks": 2,
+          "difficulty": "Intermediate",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Design industry-standard idempotent REST endpoints, JWT authorization middleware, and error interceptors.",
+          "modules": [
+            {
+              "id": "m5-1",
+              "title": "REST Protocol Standards & HTTP Verbs",
+              "completed": false,
+              "duration": "3h"
+            },
+            {
+              "id": "m5-2",
+              "title": "Express Router & Custom Middleware Pipelines",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m5-3",
+              "title": "JWT Bearer Authentication & Password Hashing",
+              "completed": false,
+              "duration": "5h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Resilient RESTful Auth & Resource API",
+            "missionSlug": "nodejs-rest-api",
+            "xpReward": 450
+          },
+          "assessmentTrigger": "RESTful API Security Benchmark"
+        },
+        {
+          "stageNumber": 6,
+          "title": "Database Integration & Relational Persistence",
+          "focusSkills": [
+            "Database Integration",
+            "SQL"
+          ],
+          "durationWeeks": 2,
+          "difficulty": "Intermediate",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Model relational database schemas, execute atomic transactions, optimize query indexing, and link ORMs.",
+          "modules": [
+            {
+              "id": "m6-1",
+              "title": "Relational Schema Normalization & Foreign Keys",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m6-2",
+              "title": "SQL Joins, Aggregations & Window Functions",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m6-3",
+              "title": "Connecting Node.js to SQLite/Postgres with Connection Pooling",
+              "completed": false,
+              "duration": "5h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Database Schema Migration & Query Benchmark",
+            "missionSlug": "db-schema-migration",
+            "xpReward": 400
+          },
+          "assessmentTrigger": "Database Integration Assessment"
+        },
+        {
+          "stageNumber": 7,
+          "title": "Full Stack Capstone Application Integration",
+          "focusSkills": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Database Integration"
+          ],
+          "durationWeeks": 4,
+          "difficulty": "Advanced",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Architect and deliver an end-to-end production web application unifying React, Express REST APIs, and a live database.",
+          "modules": [
+            {
+              "id": "m7-1",
+              "title": "Client-Server Contract & OpenAPI Documentation",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m7-2",
+              "title": "Full-Stack State Synchronization & Optimistic UI",
+              "completed": false,
+              "duration": "6h"
+            },
+            {
+              "id": "m7-3",
+              "title": "End-to-End Testing & Automated Build Pipelines",
+              "completed": false,
+              "duration": "6h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Full-Stack Career Intelligence Capstone",
+            "missionSlug": "fullstack-capstone",
+            "xpReward": 600
+          },
+          "assessmentTrigger": "Capstone Code Review & Defense"
+        },
+        {
+          "stageNumber": 8,
+          "title": "Production Deployment & Interview Portfolio",
+          "focusSkills": [
+            "Git & GitHub",
+            "DevOps"
+          ],
+          "durationWeeks": 2,
+          "difficulty": "Advanced",
+          "status": "pending",
+          "completed": false,
+          "completionPercentage": 0,
+          "description": "Deploy production builds to cloud infrastructure, configure HTTPS/CORS, and prep for system design interviews.",
+          "modules": [
+            {
+              "id": "m8-1",
+              "title": "Cloud Deployment (Vercel, Render, Railway)",
+              "completed": false,
+              "duration": "4h"
+            },
+            {
+              "id": "m8-2",
+              "title": "System Design Patterns & Technical Interview Drills",
+              "completed": false,
+              "duration": "6h"
+            }
+          ],
+          "practicalAssignment": {
+            "title": "Verified Skill Passport & Technical Showcase",
+            "missionSlug": "skill-passport-export",
+            "xpReward": 300
+          },
+          "assessmentTrigger": "Mock Technical Interview"
+        }
+      ],
+      "activeStageIndex": 0,
+      "status": "active"
+    }
+  ],
+  "progress_history": [
+    {
+      "id": "pro-1794633262024-z5x4n",
+      "createdAt": "2026-11-14T05:14:22.024Z",
+      "updatedAt": "2026-11-14T05:14:22.024Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Scheduled Comprehensive Orchestration). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:14:22.024Z"
+    },
+    {
+      "id": "pro-1794634653734-ebhdh",
+      "createdAt": "2026-11-14T05:37:33.734Z",
+      "updatedAt": "2026-11-14T05:37:33.734Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Automated Test Suite). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:37:33.734Z"
+    },
+    {
+      "id": "pro-1794635657964-fk0pf",
+      "createdAt": "2026-11-14T05:54:17.964Z",
+      "updatedAt": "2026-11-14T05:54:17.964Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Interactive Console Run). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:54:17.964Z"
+    },
+    {
+      "id": "pro-1794635658994-fbv7q",
+      "createdAt": "2026-11-14T05:54:18.994Z",
+      "updatedAt": "2026-11-14T05:54:18.994Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Interactive Console Run). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:54:18.994Z"
+    },
+    {
+      "id": "pro-1794635659385-53myg",
+      "createdAt": "2026-11-14T05:54:19.385Z",
+      "updatedAt": "2026-11-14T05:54:19.385Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Interactive Console Run). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:54:19.385Z"
+    },
+    {
+      "id": "pro-1794635659605-2gvg7",
+      "createdAt": "2026-11-14T05:54:19.605Z",
+      "updatedAt": "2026-11-14T05:54:19.605Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Interactive Console Run). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:54:19.605Z"
+    },
+    {
+      "id": "pro-1794635659837-ghbwm",
+      "createdAt": "2026-11-14T05:54:19.837Z",
+      "updatedAt": "2026-11-14T05:54:19.837Z",
+      "studentId": "student-alex",
+      "eventType": "ORCHESTRATION_RUN",
+      "details": "Multi-agent Council executed (Interactive Console Run). Career readiness: 4%.",
+      "timestamp": "2026-11-14T05:54:19.837Z"
+    },
+    {
+      "id": "pro-1794635680592-ainoa",
+      "createdAt": "2026-11-14T05:54:40.592Z",
+      "updatedAt": "2026-11-14T05:54:40.592Z",
+      "studentId": "student-alex",
+      "eventType": "LEARNING_RESCUE_TRIGGERED",
+      "details": "Score 20% on JavaScript triggered Learning Rescue. Weak concepts: Types & Coercion, Asynchronous Execution & Event Loop, Array Higher-Order Functions, Closures & Scope Chain.",
+      "timestamp": "2026-11-14T05:54:40.592Z"
+    }
+  ]
+}

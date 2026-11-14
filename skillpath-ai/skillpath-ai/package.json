@@ -1,0 +1,20 @@
+{
+  "name": "skillpath-ai",
+  "version": "1.0.0",
+  "description": "SKILLPATH AI - Multi-Agent Personalized Learning and Career Intelligence Platform",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "ai",
+    "multi-agent",
+    "career-intelligence",
+    "skill-dna",
+    "adaptive-learning"
+  ],
+  "author": "SkillPath AI Team",
+  "license": "MIT"
+}

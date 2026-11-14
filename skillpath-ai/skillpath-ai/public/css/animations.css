@@ -1,0 +1,116 @@
+/* public/css/animations.css */
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(6, 182, 212, 0.65);
+    opacity: 0.85;
+  }
+}
+
+@keyframes pulse-purple {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(139, 92, 246, 0.65);
+  }
+}
+
+@keyframes rescue-warning {
+  0%, 100% {
+    border-color: rgba(244, 63, 94, 0.4);
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.2);
+  }
+  50% {
+    border-color: rgba(244, 63, 94, 0.9);
+    box-shadow: 0 0 30px rgba(244, 63, 94, 0.5);
+  }
+}
+
+@keyframes float-node {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.anim-pulse-cyan {
+  animation: pulse-glow 2.5s infinite ease-in-out;
+}
+
+.anim-pulse-purple {
+  animation: pulse-purple 2.5s infinite ease-in-out;
+}
+
+.anim-rescue {
+  animation: rescue-warning 2s infinite ease-in-out;
+}
+
+.anim-float {
+  animation: float-node 4s infinite ease-in-out;
+}
+
+/* Modal backdrop fade */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 7, 18, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Tooltip */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1E293B;
+  color: #F8FAFC;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  z-index: 100;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
